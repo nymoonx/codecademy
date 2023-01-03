@@ -1,17 +1,34 @@
-title{
-   font-family: Helvetica;
-   font-size: 100px;
-   font-weight: bold;
-   color: khaki;
+.title {
+  font-family: Helvetica;
+  font-weight: bold;
 }
-h1 {
-   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/pattern.jpeg");
-   text-align: center;
-   font-size: 100px;
-   color: khaki;
- }
 
- .brushes{
-   background-color: mediumspringgreen;
-   font-family: Helvetica;
- }
+h1.title {
+  font-size: 100px;
+  color: khaki;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/pattern.jpeg");
+  text-align: center;
+}
+
+.object .header h2.title {
+  font-size: 32px;
+  color: white;
+}
+
+.object.title1 .header h2.title {
+  background-color: mediumspringgreen;
+}
+
+.object.title2 .header h2.title {
+  background-color: lightcoral;
+}
+
+.object.title3 .header h2.title {
+  background-color: skyblue;
+}
+
+span.important-txt {
+  font-family: Helvetica;
+  font-weight: bold;
+  color: blue;
+}
